@@ -6,8 +6,7 @@ namespace Module_3_Practic
 	{
 		static void Main(string[] args)
 		{
-			string MyName;
-			MyName = "Alex";
+			const string MyName = "Alex";
 			Console.WriteLine(MyName);
 			Console.ReadKey();
 		}
